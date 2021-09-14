@@ -7,7 +7,6 @@ body {
     margin: 0;
     line-height: 1.5;
     background-color: #ECECEC;
-    color: #003C2D;
 }
 .container {
     width: 80%;
@@ -18,10 +17,77 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-main {
-    font-family: 'Bad Script', cursive;
-    font-size: 30px;
-    background-color: #003C2D;
-    color: #FFb4a4;
+header {
+    min-height: 70px;
+    background-image: url('Visuals/meadow2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: 3px solid #FFb4a4;
 }
+header .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header h1 {
+    margin: 0 0 0 10px;
+    padding: 7px;
+    font-family: 'Bad Script', cursive;
+    font-size: 100px;
+    background-color: #FFb4a4DD;
+    color: #003C2D;
+    border: 2px solid #003C2D;
+    border-radius: 50%;
+}
+header ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header li {
+    list-style: none;
+    padding: 0 10px;
+}
+header a {
+    padding: 20px;
+    border: 2px solid #003C2D;
+    border-radius: 50%;
+    background-color: #FFb4a4DD;
+    color: #003C2D;
+    text-decoration: none;
+    font-size: 18px;
+}
+header a:hover {
+    font-family: 'Bad Script', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+main {
+    background: linear-gradient(180deg, #003C2D, #FFB4A4, #FFB4A4);
+    text-align: center;
+    border-bottom: 5px solid #003C2D;
+}
+main #love {
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-size: 75px;
+     color: #FFb4a4;
+}
+main #soothe {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    color: #003C2D;
+}
+main .logo {
+    font-family: 'Bad Script', cursive;
+    font-size: 100px;
+    font-weight: bold;
+}
+main #organic {
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 40px;
+    color: #003C2D;
+}
+
