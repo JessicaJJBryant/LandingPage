@@ -7,12 +7,14 @@ body {
     margin: 0;
     line-height: 1.5;
     background-color: #ECECEC;
+    box-sizing: border-box;
+    color: #003C2D;
 }
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
-    color: #003C2D;
+    
 }
 ul {
     margin: 0;
@@ -66,11 +68,17 @@ header a:focus {
     font-size: 25px;
     font-weight: bold;
 }
+main {
+    background-image: url("Visuals/womanInField.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    overflow: hidden;
+}
 main #spotlight {
     width: 100%;
-    background: linear-gradient(180deg, #003C2D, #003C2D, #FFb4a4, #FFB4A4, #FFB4A4);
+    background: linear-gradient(180deg, #003C2D, #003C2D, #FFb4a4AA, #FFB4A4AA, #FFB4A4AA);
     text-align: center;
-    border-bottom: 5px solid #003C2D;
 }
 main #love {
     padding-bottom: 0;
@@ -90,12 +98,71 @@ main #soothe {
     color: #003C2D;
 }
 main #organic {
+    display: inline-block;
     padding: 0;
-    margin: 0 0 5px 0;
+    margin: 0 0 0 0;
     font-size: 40px;
     color: #003C2D;
+    border-bottom: 1px solid #003C2D
 }
-about .container {
+main #what {
+    width: 100%;
+    padding: 0 10px 0 10px;
+    min-height: 300px;
+    background-color: #FFB4A4BB;
+    text-align: center;
+}
+main h2 {
+    margin: 10px 0;
+    padding: 0;
+    font-size: 40px;
+}
+main .logo-small {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 45px;
+}
+main p {
     width: 80%;
+    margin: auto;
+    padding: 0 10px 0 10px;
+    font-size: 25px;
 }
-
+#story .container {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20%;
+}
+#story .dipsi {
+    padding: 50px;
+    background-color: #003C2D;
+    color: #FFb4a4;
+    font-size: 25px;
+    text-align: center;
+}
+#story .dipsi2 {
+    margin: -40px;
+    padding: 40px;
+    border-radius: 50%;
+    background-color: #FFb4a4dd;
+    color: #003C2D;
+    font-size: 25px;
+    text-align: center;
+}
+#story img {
+    width: 450px;
+    height: 500px;
+    border-radius: 50%;
+}
+#remedies ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.vert-img {
+    width: 200px;
+    height: 300px;
+}
+.hori-img {
+    width: 300px;
+    height: 200px;
+}
