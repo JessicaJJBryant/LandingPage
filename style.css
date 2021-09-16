@@ -137,6 +137,9 @@ main p {
     padding: 0 10px 0 10px;
     font-size: 25px;
 }
+#story {
+    background-color: #003C2D;
+}
 #story .container {
     display: flex;
     justify-content: space-between;
@@ -186,6 +189,11 @@ main p {
     padding: 10px;
     font-size: 18px;
 }
+#products h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22px;
+}
 .vert-img {
     display: block;
     margin-left: auto;
@@ -222,4 +230,29 @@ main p {
     margin: 0 20px 20px 20px;
     font-size: 20px;
     text-decoration: none;
+}
+#contact {
+    width: 100%;
+    background-color: #FFb4a4;
+    font-size: 20px;
+}
+#contact .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+#contact h3 {
+    text-align: center;
+}
+#contact #form, #visitorEmail {
+    font-size: 25px;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    text-align: center;
 }
