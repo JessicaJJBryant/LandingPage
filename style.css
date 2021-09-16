@@ -98,12 +98,11 @@ main #soothe {
     color: #003C2D;
 }
 main #organic {
-    display: inline-block;
     padding: 0;
     margin: 0 0 0 0;
     font-size: 40px;
+    text-decoration: underline;
     color: #003C2D;
-    border-bottom: 1px solid #003C2D
 }
 main #what {
     width: 100%;
@@ -154,15 +153,36 @@ main p {
     height: 500px;
     border-radius: 50%;
 }
-#remedies ul {
+#remedies {
+    background-color: #FFb4a4;
+}
+#remedies h2 {
+    margin: 10px 0 0 0;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}
+#products ul {
     display: flex;
     justify-content: space-evenly;
+    padding: 25px;
+    list-style: none;
+} 
+#products ul .box {
+    padding: 10px;
+    font-size: 18px;
 }
 .vert-img {
-    width: 200px;
-    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 400px;
 }
 .hori-img {
-    width: 300px;
-    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 300px;
 }
