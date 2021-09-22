@@ -28,6 +28,10 @@ body {
     background-color: #FFb4a4;
     color: #003C2D;
 }
+#landing-page {
+    width: 100vw;
+    height: 100vh;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -85,15 +89,14 @@ main {
     overflow: hidden;
     text-align: center;
 }
-main #showcase {
-    min-height: 85vh;
-    background: linear-gradient(180deg, #003C2D,  #FFb4a4AA, #FFB4A4AA, #FFB4A4AA);
-}
 main #spotlight {
+    min-height: 85vh;
+    background: linear-gradient(180deg, #003C2D, #003C2DAA, #FFB4A4AA, #FFb4a4AA, #FFB4A4AA);
     text-align: center;
 }
 main #love {
-    margin: 0;
+    margin-top: 0px;
+    padding-top: 50px;
     font-size: 55px;
     color: #FFb4a4;
 }
@@ -103,63 +106,58 @@ main .logo {
     font-weight: bold;
 }
 main #soothe {
+    margin-top: 70px;
     font-size: 50px;
     color: #003C2D;
     text-align: center;
 }
 main #organic {
     padding: 0;
-    margin: 0 0 0 0;
+    margin-top: 70px;
     font-size: 40px;
-    text-decoration: underline;
     color: #003C2D;
 }
-main h2 {
-    margin: 10px 0;
-    padding: 0;
-    font-size: 40px;
-}
-main .logo-small {
-    font-family: 'Bad Script', cursive;
-    font-weight: bold;
-    font-size: 45px;
-}
-main .container h3 {
-    width: 80%;
-    margin: auto;
-    padding: 0 10px 0 10px;
-    font-size: 25px;
-}
-main .container .logo-small {
-    font-size: 45px;
-}
 #story {
+    padding: 10px 0;
     background-color: #003C2D;
+    color: #FFb4a4;
 }
-#story .container {
+#story article {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #003C2D;
 }
-#story .dipsi {
-    padding: 0 10px;
-    color: #FFb4a4;
-    font-size: 20px;
+#what-is h2 {
+    font-size: 30px;
+}
+#what-is .logo-small {
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+#what-is h3 {
+    width: 80%;
+    margin: auto;
+    padding: 5px 10px 0 10px;
+    font-size: 18px;
     text-align: center;
 }
+#story .dipsi {
+    padding: 0 10px;
+    font-size: 30px;
+}
 #story .dipsi2 {
-    margin: -40px;
     padding: 40px;
     border-radius: 50%;
     background-color: #FFb4a4dd;
     color: #003C2D;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
 #story img {
-    width: 450px;
-    height: 500px;
+    width: 350px;
+    height: 400px;
     padding: 0;
     margin-bottom: 0px;
     border-radius: 50%;
@@ -264,17 +262,12 @@ footer h2 {
     header li {
         padding: 0;
     }
-    main #love {
-        font-size: 30px;
-    }
-    main .logo {
-        font-size: 50px;
-    }
     main #soothe {
-        font-size: 30px;
+        margin-top: 40px;
+
     }
     main #organic {
-        font-size: 20px;
+        margin-top: 40px;
     }
     main h2 {
         font-size: 20px;
@@ -323,8 +316,31 @@ footer h2 {
         font-size: 25px;
         font-weight: bold;
     }
+    main #love {
+        font-size: 50px;
+    }
+    main #soothe {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    main #organic {
+        margin-top: 20px;
+        font-size: 30px;
+    }
 }
 @media (max-width: 600px) {
+    main #love {
+        font-size: 30px;
+    }
+    main #soothe {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    main #organic {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
     #story .dipsi2 {
         font-size: 18px;
     }
