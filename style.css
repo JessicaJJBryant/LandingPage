@@ -67,15 +67,11 @@ header a {
     border-radius: 50%;
     background-color: #FFb4a4DD;
     color: #003C2D;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 18px;
+    transition: font-size 1s, font-family 1s, font-weight 1s;
 }
-header a:hover {
-    font-family: 'Bad Script', cursive;
-    font-size: 25px;
-    font-weight: bold;
-}
-header a:focus {
+header a:hover, a:focus {
     font-family: 'Bad Script', cursive;
     font-size: 25px;
     font-weight: bold;
@@ -245,8 +241,12 @@ main #organic {
 }
 footer {
     width: 100%;
+    padding-bottom: 10px;
     text-align: center;
     background-color: #003C2D;
+    color: #FFb4a4;
+}
+footer a {
     color: #FFb4a4;
 }
 footer h2 {
