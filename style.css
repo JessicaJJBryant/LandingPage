@@ -1,15 +1,17 @@
+/* This is the first website I ever made. It was supposed to be just a landing page, but I got into the project. I suspect I will continue coming back to it for a while and fixing issues (I didn't really know what I was doing; I know more now). */
+
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 1.5;
     background-color: #003C2D;
-    box-sizing: border-box;
     color: #003C2D;
 }
 .container {
