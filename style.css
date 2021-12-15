@@ -229,6 +229,11 @@ footer {
 footer a {
     color: #FFb4a4;
 }
+@media (orientation: portrait) {
+    main {
+        background-position: right;
+    }
+}
 @media (max-width: 992px) {
     header h1 {
         margin: 0;
